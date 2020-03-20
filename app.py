@@ -6,7 +6,7 @@ import sys
 import io
 import numpy as np
 from PIL import Image
-from werkzeug import secure_filename
+# from werkzeug import secure_filename
 sys.path.append('./Cartoon')
 from cartoonizer import cartoonize
 
