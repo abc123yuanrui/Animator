@@ -11,9 +11,6 @@ sys.path.append('./Cartoon')
 from cartoonizer import cartoonize
 
 
-
-out_dir = './imgs'
-# os.mkdir(out_dir)
 app = Flask(__name__)
 CORS(app)
 @app.route('/')
